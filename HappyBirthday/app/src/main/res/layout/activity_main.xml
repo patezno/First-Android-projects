@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.happybirthday.MainActivity">
 
+    <ImageView
+        android:src="@drawable/androidparty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
     <TextView
         android:id="@+id/happy_birthday"
         android:layout_width="wrap_content"
@@ -13,6 +19,7 @@
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
+        android:padding="20dp"
         android:text="Happy Birthday Julio!" />
 
     <TextView
@@ -20,15 +27,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:paddingRight="24dp"
+        android:padding="20dp"
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
         android:text="From, Carlos"/>
-
-    <ImageView
-        android:src="@drawable/androidparty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </RelativeLayout>
