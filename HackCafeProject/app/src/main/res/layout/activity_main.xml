@@ -13,7 +13,7 @@
         android:layout_marginTop="0dp"
         android:contentDescription="@string/hackcafe"
         android:scaleType="centerInside"
-        android:src="@drawable/IMG_20180723_204638"
+        android:src="@drawable/hack"
         android:adjustViewBounds="true"/>
 
     <TextView
