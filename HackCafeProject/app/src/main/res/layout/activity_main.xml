@@ -17,11 +17,39 @@
         android:adjustViewBounds="true"/>
 
     <TextView
+        android:id="@+id/hack_cafe_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hackCafe"
         android:layout_below="@id/hack_cafe_img"
         android:padding="24dp"
         android:textSize="34sp"/>
+
+    <ImageView
+        android:id="@+id/phone"
+        android:src="@drawable/phone"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/hack_cafe_text"
+        android:layout_marginLeft="36dp"/>
+
+    <TextView
+        android:id="@+id/phone_text"
+        android:text="@string/_97166666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hack_cafe_text"
+        android:layout_toRightOf="@id/phone"
+        android:paddingLeft="4dp"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/email"
+        android:src="@drawable/email"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/phone"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="8dp"/>
 
 </RelativeLayout>
